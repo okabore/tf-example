@@ -2,7 +2,7 @@
 
 ## DEV env 
 
-Initializing terraform with the backend  
+Initializing terraform with the dev backend configuration
 
 ```tf
 terraform init -backend-config=backend/backend-dev.tfbackend -reconfigure
@@ -17,7 +17,7 @@ terraform apply
 
 ## PROD env 
 
-Initializing terraform with the backend
+Initializing terraform with the prod backend configuration
 ```tf
 terraform init -backend-config=backend/backend-prod.tfbackend -reconfigure
 ```
