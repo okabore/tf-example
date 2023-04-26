@@ -1,0 +1,2 @@
+bucket = "bucket-tfexample"
+key    = "dev/terraform.tfstate"
